@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ASCII"?>
 <anttasks:AntTask xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:anttasks="http://org.eclipse.fx.ide.jdt/1.0" buildDirectory="${project}/build">
   <deploy packagingFormat="exe">
-    <application name="AdressApp" mainclass="Andrey.Pepelyaev.Ivt.PMainAppA" version="1.0"/>
-    <info title="AdressApp" vendor="ch.makery"/>
+    <application name="AdressApp" mainclass="Artiom.Andrianov.Ivt.ch.makery.adress.AMainAppA" version="1.0"/>
+    <info title="AdressApp" vendor="makery.ch"/>
   </deploy>
   <signjar/>
 </anttasks:AntTask>

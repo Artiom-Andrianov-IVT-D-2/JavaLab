@@ -21,14 +21,14 @@
 		<mkdir dir="externalLibs" />
 	
 		<copy todir="externalLibs">
-			<fileset dir="K:\Program\Sinergy\AdressApp\AdressApp\lib">
+			<fileset dir="K:\Program\Present\AdressApp\AdressApp\lib">
 				<filename name="controlsfx-8.0.6_20.jar"/>
 			</fileset>
 		</copy>
 	
 		<mkdir dir="project" />
 		<copy todir="project">
-			<fileset dir="K:\Program\Sinergy\AdressApp\AdressApp">
+			<fileset dir="K:\Program\Present\AdressApp\AdressApp">
 				<include name="src/**" />
 			</fileset>
 		</copy>
@@ -96,7 +96,7 @@
 	
 		<fx:application id="fxApplication"
 			name="AdressApp"
-			mainClass="Andrey.Pepelyaev.Ivt.PMainAppA"
+			mainClass="Artiom.Andrianov.Ivt.ch.makery.adress.AMainAppA"
 			version="1.0"
 		/>
 	
@@ -111,7 +111,7 @@
 			<fx:resources refid="appRes"/>
 	
 			<manifest>
-				<attribute name="Implementation-Vendor" value="ch.makery"/>
+				<attribute name="Implementation-Vendor" value="makery.ch"/>
 				<attribute name="Implementation-Title" value="AdressApp"/>
 				<attribute name="Implementation-Version" value="1.0"/>
 				<attribute name="JavaFX-Feature-Proxy" value="None"/>
@@ -131,7 +131,7 @@
 			updatemode="background" >
 	
 			<fx:platform basedir="${java.home}"/>
-			<fx:info title="AdressApp" vendor="ch.makery"/>
+			<fx:info title="AdressApp" vendor="makery.ch"/>
 	
 			<fx:application refId="fxApplication"/>
 			<fx:resources refid="appRes"/>

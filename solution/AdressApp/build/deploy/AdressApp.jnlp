@@ -2,7 +2,7 @@
 <jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AdressApp.jnlp">
   <information>
     <title>AdressApp</title>
-    <vendor>ch.makery</vendor>
+    <vendor>makery.ch</vendor>
     <description>Sample JavaFX 2.0 application.</description>
     <offline-allowed/>
   </information>
@@ -11,12 +11,12 @@
   </resources>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="AdressApp.jar" size="19054" download="eager" />
+    <jar href="AdressApp.jar" size="20279" download="eager" />
     <jar href="libs/controlsfx-8.0.6_20.jar" size="856539" download="eager" />
   </resources>
   <applet-desc  width="0" height="0" main-class="com.javafx.main.NoJavaFXFallback"  name="AdressApp" >
     <param name="requiredFXVersion" value="8.0+"/>
   </applet-desc>
-  <jfx:javafx-desc  width="0" height="0" main-class="Andrey.Pepelyaev.Ivt.PMainAppA"  name="AdressApp" />
+  <jfx:javafx-desc  width="0" height="0" main-class="Artiom.Andrianov.Ivt.ch.makery.adress.AMainAppA"  name="AdressApp" />
   <update check="background"/>
 </jnlp>
